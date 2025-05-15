@@ -1,0 +1,125 @@
+.rbc-calendar {
+  background: transparent;
+}
+
+.rbc-header {
+  padding: 8px;
+  font-weight: 500;
+  color: var(--muted-foreground);
+  border-bottom: 1px solid var(--border);
+}
+
+.rbc-month-view,
+.rbc-time-view {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.rbc-month-row {
+  border-color: var(--border);
+}
+
+.rbc-day-bg {
+  background: transparent;
+}
+
+.rbc-off-range-bg {
+  background: var(--muted)/0.05;
+}
+
+.rbc-today {
+  background: var(--primary)/0.1;
+}
+
+.rbc-event {
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.875rem;
+  border: none;
+}
+
+.rbc-event.rbc-selected {
+  background-color: var(--primary);
+}
+
+.rbc-toolbar button {
+  color: var(--foreground);
+  border: 1px solid var(--border);
+  background: transparent;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+.rbc-toolbar button:hover {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-foreground);
+}
+
+.rbc-toolbar button:active,
+.rbc-toolbar button.rbc-active {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: var(--primary-foreground);
+}
+
+.rbc-toolbar button:focus {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.rbc-time-content,
+.rbc-time-header-content {
+  border-color: var(--border);
+}
+
+.rbc-time-header {
+  border-color: var(--border);
+}
+
+.rbc-timeslot-group {
+  border-color: var(--border);
+}
+
+.rbc-time-slot {
+  color: var(--muted-foreground);
+}
+
+.rbc-current-time-indicator {
+  background-color: var(--primary);
+}
+
+.rbc-date-cell {
+  padding: 4px;
+  color: var(--foreground);
+}
+
+.rbc-off-range {
+  color: var(--muted-foreground);
+}
+
+.rbc-show-more {
+  color: var(--primary);
+  font-size: 0.875rem;
+  padding: 2px 8px;
+  background: transparent;
+}
+
+.rbc-show-more:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.rbc-overlay {
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.rbc-overlay-header {
+  padding: 8px;
+  color: var(--foreground);
+  border-bottom: 1px solid var(--border);
+} 
